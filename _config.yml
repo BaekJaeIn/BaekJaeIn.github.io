@@ -72,8 +72,11 @@ content:
           Java, Websqure, oracle11g, eclipse, svn, spring
         description: | # this will include new lines to allow paragraphs
           인사기본사항, 인사발령 담당 개발
+
           리눅스 crontab기반 배치프로그램 개발
+
           사용자 입력 레포트 개발(전자 근로계약서)
+
           오라클 프로시저 개발
       - layout: left #left top-middle
         title: 경희대학교 학사관리시스템 유지보수
@@ -82,7 +85,9 @@ content:
           Java, nexacro14, tibero6, eclipse, jennifer, spring
         description: | # this will include new lines to allow paragraphs
           대학원입시, 취업, 동문, 교직, 학생, 공용장비 파트 담당 운영
+
           수업, 성적, 수강신청 서브 운영
+          
           마이크로디그리(MD) 협약에 따른 신규 개발
 
   - title: Experience # Title for the section
