@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: BaekJaeIn/BaekJaeIn.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -9,7 +9,7 @@ version: 2
 name: 백재인
 title: front-end developer
 email: jiback96@naver.com
-website: baekjaein.github.io
+website: github.com/BaekJaein
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -19,13 +19,13 @@ darkmode: true
 github_username: BaekJaeIn
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
-# facebook_username: jekyll
+facebook_username: jekyll
 # flickr_username: jekyll
 instagram_username: ji___100
 # linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-# youtube_username: globalmtb
+youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
