@@ -7,27 +7,20 @@ version: 2
 
 # Personal info
 name: 백재인
-title: front-end developer
+title: web developer
 email: jiback96@naver.com
-website: github.com/BaekJaein
+website: github.com/BaekJaeIn/BaekJaeIn.github.io
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
-# twitter_username: facespics
 github_username: BaekJaeIn
 # stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-facebook_username: Jaein1005
-# flickr_username: jekyll
+# facebook_username: Jaein1005
 instagram_username: ji___100
 # linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
 # youtube_username: @jaein1005
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 # additional_links:
@@ -45,14 +38,14 @@ instagram_username: ji___100
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  저는 목표를 설정하고, 원하는 결과를 얻기 위해 끊임없이 도전하고자 합니다. 실행하지 않는 사람에게는 결과가 없기에, 어떠한 어려움에도 끈기를 갖고 임해왔습니다. 그래서 어려워도 계속해서 해보자는 것이 저의 신조입니다.
+  안녕하세요. 4년차 개발자 백재인입니다. 현재 한진정보통신에서 대한항공 홈페이지 운영팀의 팀원으로 일하고 있습니다. 대한항공 홈페이지는 부킹과 컨텐츠로 나뉘는데 그 중 컨텐츠 운영을 담당하고 있습니다.
 
-  군 시절, 저는 견인포병이었습니다. 그때 제가 운용하던 포에 관심이 생겼고 군단의 포병이 모두 모이는 포반장학교에서 1등을 하는 것이 저의 군 생활 목표가 되었습니다. 하지만 군대에서 공부하는 것이 쉽지는 않았습니다. 그래서 저는 저의 개인정비 시간에 공부하였고, 그 시간도 부족해서 매일 연등을 신청해서 새벽 1시까지 2달간 쉼 없이 공부하였습니다. 그렇게 열심히 노력해서 저는 포반장학교에서 당당히 1등을 할 수 있었습니다.
+  저는 새로운 경험을 두려워 하지 않는 업무 열정을 보유하고 있습니다. 처음 취업을 할 때에도, 이직을 할 때에도 제가 생각한 가장 중요한 가치는 성장이었습니다. 그래서 항상 저의 성장을 위한 선택을 하였고 지금은 돈 주고도 살 수 없는 귀중한 경험들을 하였습니다.
 
-  저는 프로그래밍과 군대에 있을 때 저의 상황이 크게 다르지 않다고 생각합니다. 사람이 기계를 상대한다는 건 쉽지 않은 일이고 더군다나 모든 프로그래밍 언어는 영어로 되어있으므로 우리나라 사람들이 이해하기 쉽지 않고, 벽에 부딪힐 때가 많다고 생각합니다. 누구는 이런 벽을 마주하면 그냥 포기하고 다른 길을 찾아 나서겠지만 저는 포기하지 않고 끈기 있게 노력하면서 이 벽을 넘을 것입니다.
+  저는 새로운 도전은 성공이든 실패든 언제나 저를 성장시켜준다고 생각합니다. 따라서 새로운 도전을 두려워 하지 않고 열정적으로 업무를 수행할 준비가 되어있습니다.
 
 content:
   - title: Projects # Title for the section
@@ -62,78 +55,136 @@ content:
         title: 목포과학대학교 Life 사업단 성인학습자 이력관리 시스템 구축
         # link: github.com/sproogen
         # link_text: Project Website
-        caption: 2020/07 - 2021.09, 2022.07 - 2022.08 
+        caption: 2020.07. ~ 2021.09., 2022.07. ~ 2022.08.
         quote: >
-          Java, nexacro17, tibero6, eclipse, svn, tomcat, spring
+          <mark>Java</mark>
+          <mark>nexacro17</mark>
+          <mark>tibero6</mark>
+          <mark>eclipse</mark>
+          <mark>svn</mark>
+          <mark>tomcat</mark>
+          <mark>spring</mark>
         description: | # this will include new lines to allow paragraphs
-          학적, 수업, 등록, 장학, 교직원 파트 담당 개발
+          - 학적, 수업, 등록, 장학, 교직원 파트 담당 개발
       - layout: left #left top-middle
         title: SH공사 전사자원통합관리시스템 구축 1단계
-        caption: 2021/09 - 2022.07
+        caption: 2021.09. ~ 2022.07.
         quote: >
-          Java, Websqure, oracle11g, eclipse, svn, spring
+          <mark>Java</mark>
+          <mark>Websqure</mark>
+          <mark>oracle11g</mark>
+          <mark>eclipse</mark>
+          <mark>svn</mark>
+          <mark>spring</mark>
         description: | # this will include new lines to allow paragraphs
-          인사기본사항, 인사발령 담당 개발
+          - 인사기본사항, 인사발령 담당 개발
 
-          리눅스 crontab기반 배치프로그램 개발
+          - 리눅스 crontab기반 배치프로그램 개발
 
-          사용자 입력 레포트 개발(전자 근로계약서)
+          - 사용자 입력 레포트 개발(전자 근로계약서)
 
-          오라클 프로시저 개발
+          - 오라클 프로시저 개발
       - layout: left #left top-middle
-        title: 경희대학교 학사관리시스템 유지보수
-        caption: 2022/09 - 2023.06
+        title: 경희대학교 학사관리시스템 운영
+        caption: 2022.09. ~ 2023.06.
         quote: >
-          Java, nexacro14, tibero6, eclipse, jennifer, spring
+          <mark>Java</mark>
+          <mark>nexacro14</mark>
+          <mark>tibero6</mark>
+          <mark>eclipse</mark>
+          <mark>jennifer</mark>
+          <mark>spring</mark>
         description: | # this will include new lines to allow paragraphs
-          대학원입시, 취업, 동문, 교직, 학생, 공용장비 파트 담당 운영
+          - 대학원입시, 취업, 동문, 교직, 학생, 공용장비 파트 담당 운영
 
-          수업, 성적, 수강신청 서브 운영
+          - 수업, 성적, 수강신청 서브 운영
 
-          마이크로디그리(MD) 협약에 따른 신규 개발
+          - 마이크로디그리(MD) 협약에 따른 신규 개발
+      - layout: left #left top-middle
+        title: 대한항공 홈페이지 운영
+        caption: 2023.06. ~
+        quote: >
+          <mark>Java</mark>
+          <mark>AEM</mark>
+          <mark>HTL</mark>
+          <mark>jsp</mark>
+          <mark>jQuery</mark>
+          <mark>Jenkins</mark>
+          <mark>Bicbucket</mark>
+          <mark>Jira</mark>
+          <mark>sling</mark>
+          <mark>JCR SQL2</mark>
+        description: | # this will include new lines to allow paragraphs
+          - 신규 이벤트 응모 기능 개발
+
+          - 웹 접근성(W3C)기준 준수
+
+      - layout: left #left top-middle
+        title: 대한항공 홈페이지 콘텐츠 개편
+        caption: 2023.08. ~
+        quote: >
+          <mark>Java</mark>
+          <mark>AEMaaCS</mark>
+          <mark>HTL</mark>
+          <mark>jsp</mark>
+          <mark>nextjs</mark>
+          <mark>Jenkins</mark>
+          <mark>Bicbucket</mark>
+          <mark>Jira</mark>
+          <mark>sling</mark>
+          <mark>JCR SQL2</mark>
+        description: | # this will include new lines to allow paragraphs
+          - On-premise로 구현된 대한항공 콘텐츠 홈페이지를 Cloud로 전환
 
   - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+    layout: layout2 # Type of content section (list/text)
     content:
-      - layout: left
-        title: (주)에버에듀시스템
-        link: http://www.averedusystem.com
-        link_text: averedusystem.com
-        sub_title: 웹 개발자
-        caption: 2020/08 - 2023/06
-      - layout: left
-        title: 한진정보통신(주)
-        link: https://www.hist.co.kr
-        link_text: hist.co.kr
-        sub_title: AEM 개발자
-        caption: 2023/06 -
+      - title_1: (주)에버에듀시스템
+        link_1: http://www.averedusystem.com
+        link_text_1: averedusystem.com
+        sub_title_1: 웹 개발자
+        caption_1: 2020.08. ~ 2023.06.
+        title_2: 한진정보통신(주)
+        link_2: https://www.hist.co.kr
+        link_text_2: hist.co.kr
+        sub_title_2: AEM 개발자
+        caption_2: 2023.06. ~
 
 
   - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+    layout: layout3 # Type of content section (list/text)
     content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+      - title_1: 동양고등학교
+        caption_1: 2012.03 ~ 2015.02
+        title_2: 명지전문대학교
+        sub_title_2: 정보통신공학과
+        caption_2: 2015.03 ~ 2020.02
+        sub_caption_2: 학점 3.5
+        title_3: 학점은행제
+        sub_title_3: 정보통신공학과
+        caption_3: 2021.07 ~ 2022.02
+        sub_caption_3: 학점 4.19
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: Certificate # Title for the section
+    layout: layout2 # Type of content section (list/text)
+    content:
+      - title_1: 정보처리기사
+        sub_title_1: 한국산업인력공단
+        caption_1: 2021.11
+        title_2: AWS Certified Developer
+        sub_title_2: AWS
+        caption_2: 2023.08
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+    content: 
+      - caption: 끊임없는 도전과 발전
+        content: | # this will include new lines to allow paragraphs
+          저는 목표를 설정하고, 원하는 결과를 얻기 위해 끊임없이 도전하고자 합니다. 실행하지 않는 사람에게는 결과가 없기에, 어떠한 어려움에도 끈기를 갖고 임해왔습니다. 그래서 어려워도 계속해서 해보자는 것이 저의 신조입니다.
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+          군 시절, 저는 견인포병이었습니다. 그때 제가 운용하던 포에 관심이 생겼고 군단의 포병이 모두 모이는 포반장학교에서 1등을 하는 것이 저의 군 생활 목표가 되었습니다. 하지만 군대에서 공부하는 것이 쉽지는 않았습니다. 그래서 저는 저의 개인정비 시간에 공부하였고, 그 시간도 부족해서 매일 연등을 신청해서 새벽 1시까지 2달간 쉼 없이 공부하였습니다. 그렇게 열심히 노력해서 저는 포반장학교에서 당당히 1등을 할 수 있었습니다.
+
+          저는 프로그래밍과 군대에 있을 때 저의 상황이 크게 다르지 않다고 생각합니다. 사람이 기계를 상대한다는 건 쉽지 않은 일이고 더군다나 모든 프로그래밍 언어는 영어로 되어있으므로 우리나라 사람들이 이해하기 쉽지 않고, 벽에 부딪힐 때가 많다고 생각합니다. 누구는 이런 벽을 마주하면 그냥 포기하고 다른 길을 찾아 나서겠지만 저는 포기하지 않고 끈기 있게 노력하면서 이 벽을 넘을 것입니다.
 
 # Footer
 footer_show_references: true

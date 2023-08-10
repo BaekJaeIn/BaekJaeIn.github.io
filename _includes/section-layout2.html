@@ -1,0 +1,26 @@
+{% for item in include.content %}
+  <div class="row clearfix layout border-{{item.border | default: 'yes'}}">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-print-12 details-center">
+      <h4 id="{{ item.title_1 | slugify }}">{{ item.title_1 }}</h4>
+      {%- if item.sub_title_1 -%}<p><b>{{ item.sub_title_1 }}</b></p>{%- endif -%}
+      {%- if item.caption_1 -%}<p>{{ item.caption_1 }}</p>{%- endif -%}
+
+      {%- if item.link_1 -%}
+        {% include a.html href=item.link_1 class="link" %}
+          {%- if item.link_text_1 -%}{{ item.link_text_1 }}{%- else -%}{{ item.link_1 }}{%- endif -%}
+        </a>
+      {%- endif -%}
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-print-12 details-center">
+      <h4 id="{{ item.title_2 | slugify }}">{{ item.title_2 }}</h4>
+      {%- if item.sub_title_2 -%}<p><b>{{ item.sub_title_2 }}</b></p>{%- endif -%}
+      {%- if item.caption_2 -%}<p>{{ item.caption_2 }}</p>{%- endif -%}
+
+      {%- if item.link_2 -%}
+        {% include a.html href=item.link_2 class="link" %}
+          {%- if item.link_text_2 -%}{{ item.link_text_2 }}{%- else -%}{{ item.link_2 }}{%- endif -%}
+        </a>
+      {%- endif -%}
+    </div>
+  </div>
+{% endfor %}

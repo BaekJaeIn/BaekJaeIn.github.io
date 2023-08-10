@@ -1,0 +1,23 @@
+@font-face { 
+  font-family: 'NanumBarunGothic';
+  src: url('/fonts/NanumBarunGothic.eot');
+  src: url('/fonts/NanumBarunGothic.eot') format('embedded-opentype'),
+  url('/fonts/NanumBarunGothic.woff') format('woff');
+}
+
+.dark {
+  background-color: #222;
+  color: #e6e6e6;
+  font-family: 'NanumGothic', 'serif';
+}
+
+.dark {
+  mark {
+    color: #222;
+    background-color: #e6e6e6;
+  }
+
+  a {
+    color: #477dca;
+  }
+}
