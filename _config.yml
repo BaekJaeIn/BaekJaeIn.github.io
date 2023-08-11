@@ -155,14 +155,14 @@ content:
     layout: layout3 # Type of content section (list/text)
     content:
       - title_1: 동양고등학교
-        caption_1: 2012.03 ~ 2015.02
+        caption_1: 2012.03. ~ 2015.02.
         title_2: 명지전문대학교
         sub_title_2: 정보통신공학과
-        caption_2: 2015.03 ~ 2020.02
+        caption_2: 2015.03. ~ 2020.02.
         sub_caption_2: 학점 3.5
         title_3: 학점은행제
         sub_title_3: 정보통신공학과
-        caption_3: 2021.07 ~ 2022.02
+        caption_3: 2021.07. ~ 2022.02.
         sub_caption_3: 학점 4.19
 
   - title: Certificate # Title for the section
@@ -170,10 +170,10 @@ content:
     content:
       - title_1: 정보처리기사
         sub_title_1: 한국산업인력공단
-        caption_1: 2021.11
+        caption_1: 2021.11.
         title_2: AWS Certified Developer
         sub_title_2: AWS
-        caption_2: 2023.08
+        caption_2: 2023.08.
 
   - title: A Little More About Me
     layout: text
