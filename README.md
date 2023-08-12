@@ -10,4 +10,5 @@
 
 참조 : https://github.com/sproogen/modern-resume-theme
 
+> bundle install
 > bundle exec jekyll serve
