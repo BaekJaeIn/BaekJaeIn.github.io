@@ -7,18 +7,18 @@ version: 2
 
 # Personal info
 name: 백재인
-title: web developer
+title: Web developer
 email: jiback96@naver.com
 website: github.com/BaekJaeIn/BaekJaeIn.github.io
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 github_username: BaekJaeIn
 # stackoverflow_username: "00000001"
 # facebook_username: Jaein1005
-instagram_username: ji___100
+# instagram_username: ji___100
 # linkedin_username: jameswgrant
 # youtube_username: @jaein1005
 
@@ -41,7 +41,7 @@ instagram_username: ji___100
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 4년차 개발자 백재인입니다. 현재 한진정보통신에서 대한항공 홈페이지 운영팀의 팀원으로 일하고 있습니다. 대한항공 홈페이지는 부킹과 컨텐츠로 나뉘는데 그 중 컨텐츠 운영을 담당하고 있습니다.
+  안녕하세요. 5년차 개발자 백재인입니다. 현재 한진정보통신에서 대한항공 홈페이지 운영팀에서 컨텐츠 개발 및 운영을 담당하고 있습니다.
 
   저는 새로운 경험을 두려워 하지 않는 업무 열정을 보유하고 있습니다. 처음 취업을 할 때에도, 이직을 할 때에도 제가 생각한 가장 중요한 가치는 성장이었습니다. 그래서 항상 저의 성장을 위한 선택을 하였고 지금은 돈 주고도 살 수 없는 귀중한 경험들을 하였습니다.
 
@@ -52,10 +52,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left #left top-middle
-        title: 목포과학대학교 Life 사업단 성인학습자 이력관리 시스템 구축
+        title: 에버에듀시스템
+        sub_title: 목포과학대학교 Life 사업단 성인학습자 이력관리 시스템 구축
         # link: github.com/sproogen
         # link_text: Project Website
-        caption: 2020.07. ~ 2021.09., 2022.07. ~ 2022.08.
+        caption: 2020.07. ~ 2021.09.<br> 2022.07. ~ 2022.08.
         quote: >
           <mark>Java</mark>
           <mark>nexacro17</mark>
@@ -66,8 +67,10 @@ content:
           <mark>spring</mark>
         description: | # this will include new lines to allow paragraphs
           - 학적, 수업, 등록, 장학, 교직원 파트 담당 개발
+
       - layout: left #left top-middle
-        title: SH공사 전사자원통합관리시스템 구축 1단계
+        title: 에버에듀시스템
+        sub_title: SH공사 전사자원통합관리시스템 구축 1단계
         caption: 2021.09. ~ 2022.07.
         quote: >
           <mark>Java</mark>
@@ -78,14 +81,13 @@ content:
           <mark>spring</mark>
         description: | # this will include new lines to allow paragraphs
           - 인사기본사항, 인사발령 담당 개발
-
           - 리눅스 crontab기반 배치프로그램 개발
-
           - 사용자 입력 레포트 개발(전자 근로계약서)
-
           - 오라클 프로시저 개발
+          
       - layout: left #left top-middle
-        title: 경희대학교 학사관리시스템 운영
+        title: 에버에듀시스템
+        sub_title: 경희대학교 학사관리시스템 운영
         caption: 2022.09. ~ 2023.06.
         quote: >
           <mark>Java</mark>
@@ -96,12 +98,12 @@ content:
           <mark>spring</mark>
         description: | # this will include new lines to allow paragraphs
           - 대학원입시, 취업, 동문, 교직, 학생, 공용장비 파트 담당 운영
-
           - 수업, 성적, 수강신청 서브 운영
-
           - 마이크로디그리(MD) 협약에 따른 신규 개발
+
       - layout: left #left top-middle
-        title: 대한항공 홈페이지 운영
+        title: 한진정보통신
+        sub_title: 대한항공 홈페이지 운영
         caption: 2023.06. ~
         quote: >
           <mark>Java</mark>
@@ -115,13 +117,13 @@ content:
           <mark>sling</mark>
           <mark>JCR SQL2</mark>
         description: | # this will include new lines to allow paragraphs
-          - 신규 이벤트 응모 기능 개발
-
+          - 이벤트 응모 기능 개발 및 데이터 전송
           - 웹 접근성(W3C)기준 준수
 
       - layout: left #left top-middle
-        title: 대한항공 홈페이지 콘텐츠 개편
-        caption: 2023.08. ~
+        title: 한진정보통신
+        sub_title: 대한항공 홈페이지 콘텐츠 개편
+        caption: 2023.08. ~ 2024.06
         quote: >
           <mark>Java</mark>
           <mark>AEMaaCS</mark>
@@ -133,8 +135,14 @@ content:
           <mark>Jira</mark>
           <mark>sling</mark>
           <mark>JCR SQL2</mark>
+          <mark>WebComponent</mark>
+          <mark>Stencil.js</mark>
         description: | # this will include new lines to allow paragraphs
-          - On-premise로 구현된 대한항공 콘텐츠 홈페이지를 Cloud로 전환
+          - On-premise AEM 시스템을 Cloud AEM 시스템으로 전환
+          - Headless AEM, Remote SPA Frontend, Micro Fronted 신규 도입
+          - 개편 대상 신규 컴포넌트 개발 
+          - 개편 대상이 아닌 legacy 컴포넌트 migration
+          - 이벤트 응모 기능 migration 및 수정
 
   - title: Experience # Title for the section
     layout: layout2 # Type of content section (list/text)
