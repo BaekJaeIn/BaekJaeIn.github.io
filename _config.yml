@@ -84,7 +84,7 @@ content:
           - 리눅스 crontab기반 배치프로그램 개발
           - 사용자 입력 레포트 개발(전자 근로계약서)
           - 오라클 프로시저 개발
-          
+
       - layout: left #left top-middle
         title: 에버에듀시스템
         sub_title: 경희대학교 학사관리시스템 운영
@@ -103,25 +103,6 @@ content:
 
       - layout: left #left top-middle
         title: 한진정보통신
-        sub_title: 대한항공 홈페이지 운영
-        caption: 2023.06. ~
-        quote: >
-          <mark>Java</mark>
-          <mark>AEM</mark>
-          <mark>HTL</mark>
-          <mark>jsp</mark>
-          <mark>jQuery</mark>
-          <mark>Jenkins</mark>
-          <mark>Bicbucket</mark>
-          <mark>Jira</mark>
-          <mark>sling</mark>
-          <mark>JCR SQL2</mark>
-        description: | # this will include new lines to allow paragraphs
-          - 이벤트 응모 기능 개발 및 데이터 전송
-          - 웹 접근성(W3C)기준 준수
-
-      - layout: left #left top-middle
-        title: 한진정보통신
         sub_title: 대한항공 홈페이지 콘텐츠 개편
         caption: 2023.08. ~ 2024.06
         quote: >
@@ -130,6 +111,7 @@ content:
           <mark>HTL</mark>
           <mark>jsp</mark>
           <mark>nextjs</mark>
+          <mark>react</mark>
           <mark>Jenkins</mark>
           <mark>Bicbucket</mark>
           <mark>Jira</mark>
@@ -144,6 +126,31 @@ content:
           - 개편 대상이 아닌 legacy 컴포넌트 migration
           - 이벤트 응모 기능 migration 및 수정
 
+      - layout: left #left top-middle
+        title: 한진정보통신
+        sub_title: 대한항공 홈페이지 운영
+        caption: 2023.06. ~
+        quote: >
+          <mark>Java</mark>
+          <mark>AEMaaCS</mark>
+          <mark>HTL</mark>
+          <mark>jsp</mark>
+          <mark>nextjs</mark>
+          <mark>react</mark>
+          <mark>Jenkins</mark>
+          <mark>Bicbucket</mark>
+          <mark>Jira</mark>
+          <mark>sling</mark>
+          <mark>JCR SQL2</mark>
+          <mark>WebComponent</mark>
+          <mark>Stencil.js</mark>
+          <mark>ChatGPT</mark>
+        description: | # this will include new lines to allow paragraphs
+          - 이벤트 응모 기능 개발 및 데이터 전송
+          - 웹 접근성(W3C)기준 준수
+          - 카카오톡학생증 연계 프로모션 기능 개발
+          - 카카오모빌리티 연계 프로모션 기능 개발
+
   - title: Experience # Title for the section
     layout: layout2 # Type of content section (list/text)
     content:
@@ -157,7 +164,6 @@ content:
         link_text_2: hist.co.kr
         sub_title_2: AEM 개발자
         caption_2: 2023.06. ~
-
 
   - title: Education # Title for the section
     layout: layout3 # Type of content section (list/text)
@@ -174,7 +180,7 @@ content:
         sub_caption_3: 학점 4.19
 
   - title: Certificate # Title for the section
-    layout: layout2 # Type of content section (list/text)
+    layout: layout3 # Type of content section (list/text)
     content:
       - title_1: 정보처리기사
         sub_title_1: 한국산업인력공단
@@ -182,10 +188,13 @@ content:
         title_2: AWS Certified Developer
         sub_title_2: AWS
         caption_2: 2023.08.
+        title_3: 데이터분석준전문가
+        sub_title_3: 데이터자격검정
+        caption_3: 2024.11.
 
   - title: A Little More About Me
     layout: text
-    content: 
+    content:
       - caption: 끊임없는 도전과 발전
         content: | # this will include new lines to allow paragraphs
           저는 목표를 설정하고, 원하는 결과를 얻기 위해 끊임없이 도전하고자 합니다. 실행하지 않는 사람에게는 결과가 없기에, 어떠한 어려움에도 끈기를 갖고 임해왔습니다. 그래서 어려워도 계속해서 해보자는 것이 저의 신조입니다.
@@ -206,4 +215,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
