@@ -1,0 +1,44 @@
+{% for item in include.content %}
+<div class="row clearfix layout layout-layout4 border-{{item.border | default: 'yes'}}">
+  <div class="col-xs-12 col-sm-3 col-md-3 col-print-12 details-center">
+    <h4 id="{{ item.title_1 | slugify }}">{{ item.title_1 }}</h4>
+    {%- if item.sub_title_1 -%}
+    <p><b>{{ item.sub_title_1 }}</b></p>
+    {%- endif -%} {%- if item.caption_1 -%}
+    <p>{{ item.caption_1 }}</p>
+    {%- endif -%} {%- if item.sub_caption_1 -%}
+    <p>{{ item.sub_caption_1 }}</p>
+    {%- endif -%}
+  </div>
+  <div class="col-xs-12 col-sm-3 col-md-3 col-print-12 details-center">
+    <h4 id="{{ item.title_2 | slugify }}">{{ item.title_2 }}</h4>
+    {%- if item.sub_title_2 -%}
+    <p><b>{{ item.sub_title_2 }}</b></p>
+    {%- endif -%} {%- if item.caption_2 -%}
+    <p>{{ item.caption_2 }}</p>
+    {%- endif -%} {%- if item.sub_caption_2 -%}
+    <p>{{ item.sub_caption_2 }}</p>
+    {%- endif -%}
+  </div>
+  <div class="col-xs-12 col-sm-3 col-md-3 col-print-12 details-center">
+    <h4 id="{{ item.title_3 | slugify }}">{{ item.title_3 }}</h4>
+    {%- if item.sub_title_3 -%}
+    <p><b>{{ item.sub_title_3 }}</b></p>
+    {%- endif -%} {%- if item.caption_3 -%}
+    <p>{{ item.caption_3 }}</p>
+    {%- endif -%} {%- if item.sub_caption_3 -%}
+    <p>{{ item.sub_caption_3 }}</p>
+    {%- endif -%}
+  </div>
+  <div class="col-xs-12 col-sm-3 col-md-3 col-print-12 details-center">
+    <h4 id="{{ item.title_4 | slugify }}">{{ item.title_4 }}</h4>
+    {%- if item.sub_title_4 -%}
+    <p><b>{{ item.sub_title_4 }}</b></p>
+    {%- endif -%} {%- if item.caption_4 -%}
+    <p>{{ item.caption_4 }}</p>
+    {%- endif -%} {%- if item.sub_caption_4 -%}
+    <p>{{ item.sub_caption_4 }}</p>
+    {%- endif -%}
+  </div>
+</div>
+{% endfor %}
