@@ -12,7 +12,7 @@ email: jiback96@naver.com
 website: github.com/BaekJaeIn/BaekJaeIn.github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 github_username: BaekJaeIn
