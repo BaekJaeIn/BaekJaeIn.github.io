@@ -41,7 +41,7 @@ github_username: BaekJaeIn
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 5년차 개발자 백재인입니다. 
+  안녕하세요. 6년차 개발자 백재인입니다. 
 
   현재 한진정보통신에서 대한항공 홈페이지 운영팀의 일원으로, 대한항공 홈페이지 중 컨텐츠 영역의 운영과 개선을 담당하고 있습니다. 새로운 환경과 기술에 대한 도전을 두려워하지 않으며, 업무 전반에 걸쳐 주도적으로 문제를 해결하고 개선하는 경험을 쌓아왔습니다.
 
@@ -53,84 +53,11 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left top-middle #left top-middle
-        title: 에버에듀시스템
-        sub_title: 목포과학대학교 Life 사업단 성인학습자 이력관리 시스템 구축
-        # link: github.com/sproogen
-        # link_text: Project Website
-        caption: 2020.07. ~ 2021.09.<br> 2022.07. ~ 2022.08.
-        quote: >
-          <mark>Java</mark>
-          <mark>nexacro17</mark>
-          <mark>tibero6</mark>
-          <mark>eclipse</mark>
-          <mark>svn</mark>
-          <mark>tomcat</mark>
-          <mark>spring</mark>
-        description: | # this will include new lines to allow paragraphs
-          - 학적, 수업, 등록, 장학, 교직원 파트 담당 개발
-
-      - layout: left #left top-middle
-        title: 에버에듀시스템
-        sub_title: SH공사 전사자원통합관리시스템 구축 1단계
-        caption: 2021.09. ~ 2022.07.
-        quote: >
-          <mark>Java</mark>
-          <mark>Websqure</mark>
-          <mark>oracle11g</mark>
-          <mark>eclipse</mark>
-          <mark>svn</mark>
-          <mark>spring</mark>
-        description: | # this will include new lines to allow paragraphs
-          - 인사기본사항, 인사발령 담당 개발
-          - 리눅스 crontab기반 배치프로그램 개발
-          - 사용자 입력 레포트 개발(전자 근로계약서)
-          - 오라클 프로시저 개발
-
-      - layout: left #left top-middle
-        title: 에버에듀시스템
-        sub_title: 경희대학교 학사관리시스템 운영
-        caption: 2022.09. ~ 2023.06.
-        quote: >
-          <mark>Java</mark>
-          <mark>nexacro14</mark>
-          <mark>tibero6</mark>
-          <mark>eclipse</mark>
-          <mark>jennifer</mark>
-          <mark>spring</mark>
-        description: | # this will include new lines to allow paragraphs
-          - 대학원입시, 취업, 동문, 교직, 학생, 공용장비 파트 담당 운영
-          - 수업, 성적, 수강신청 서브 운영
-          - 마이크로디그리(MD) 협약에 따른 신규 개발
-
-      - layout: left #left top-middle
-        title: 한진정보통신
-        sub_title: 대한항공 홈페이지 콘텐츠 개편
-        caption: 2023.08. ~ 2024.06
-        quote: >
-          <mark>Java</mark>
-          <mark>AEMaaCS</mark>
-          <mark>HTL</mark>
-          <mark>jsp</mark>
-          <mark>nextjs</mark>
-          <mark>react</mark>
-          <mark>Jenkins</mark>
-          <mark>Bicbucket</mark>
-          <mark>Jira</mark>
-          <mark>sling</mark>
-          <mark>JCR SQL2</mark>
-          <mark>WebComponent</mark>
-          <mark>Stencil.js</mark>
-        description: | # this will include new lines to allow paragraphs
-          - On-premise AEM 시스템을 Cloud AEM 시스템으로 전환
-          - Headless AEM, Remote SPA Frontend, Micro Frontend 신규 도입
-          - 개편 대상 신규 컴포넌트 개발 
-          - 개편 대상이 아닌 legacy 컴포넌트 migration
-          - 이벤트 응모 기능 migration 및 수정
-
       - layout: left #left top-middle
         title: 한진정보통신
         sub_title: 대한항공 홈페이지 운영
+        link: https://www.koreanair.com/
+        link_text: 대한항공 홈페이지
         caption: 2023.06. ~
         quote: >
           <mark>Java</mark>
@@ -162,6 +89,79 @@ content:
           - 항공기안내 페이지 AEM Universal Editor 적용 (~ 2026)
           - 컨텐츠 페이지 디자인 시스템 적용 (~ 2026)
           - AI UX 라이팅 (~ 2026)
+
+      - layout: left #left top-middle
+        title: 한진정보통신
+        sub_title: 대한항공 홈페이지 콘텐츠 개편
+        caption: 2023.08. ~ 2024.06
+        quote: >
+          <mark>Java</mark>
+          <mark>AEMaaCS</mark>
+          <mark>HTL</mark>
+          <mark>jsp</mark>
+          <mark>nextjs</mark>
+          <mark>react</mark>
+          <mark>Jenkins</mark>
+          <mark>Bicbucket</mark>
+          <mark>Jira</mark>
+          <mark>sling</mark>
+          <mark>JCR SQL2</mark>
+          <mark>WebComponent</mark>
+          <mark>Stencil.js</mark>
+        description: | # this will include new lines to allow paragraphs
+          - On-premise AEM 시스템을 Cloud AEM 시스템으로 전환
+          - Headless AEM, Remote SPA Frontend, Micro Frontend 신규 도입
+          - 개편 대상 신규 컴포넌트 개발 
+          - 개편 대상이 아닌 legacy 컴포넌트 migration
+          - 이벤트 응모 기능 migration 및 수정
+
+      - layout: left #left top-middle
+        title: 에버에듀시스템
+        sub_title: 경희대학교 학사관리시스템 운영
+        caption: 2022.09. ~ 2023.06.
+        quote: >
+          <mark>Java</mark>
+          <mark>nexacro14</mark>
+          <mark>tibero6</mark>
+          <mark>eclipse</mark>
+          <mark>jennifer</mark>
+          <mark>spring</mark>
+        description: | # this will include new lines to allow paragraphs
+          - 대학원입시, 취업, 동문, 교직, 학생, 공용장비 파트 담당 운영
+          - 수업, 성적, 수강신청 서브 운영
+          - 마이크로디그리(MD) 협약에 따른 신규 개발
+
+      - layout: left #left top-middle
+        title: 에버에듀시스템
+        sub_title: SH공사 전사자원통합관리시스템 구축 1단계
+        caption: 2021.09. ~ 2022.07.
+        quote: >
+          <mark>Java</mark>
+          <mark>Websqure</mark>
+          <mark>oracle11g</mark>
+          <mark>eclipse</mark>
+          <mark>svn</mark>
+          <mark>spring</mark>
+        description: | # this will include new lines to allow paragraphs
+          - 인사기본사항, 인사발령 담당 개발
+          - 리눅스 crontab기반 배치프로그램 개발
+          - 사용자 입력 레포트 개발(전자 근로계약서)
+          - 오라클 프로시저 개발
+
+      - layout: left #left top-middle
+        title: 에버에듀시스템
+        sub_title: 목포과학대학교 Life 사업단 성인학습자 이력관리 시스템 구축
+        caption: 2020.07. ~ 2021.09.<br> 2022.07. ~ 2022.08.
+        quote: >
+          <mark>Java</mark>
+          <mark>nexacro17</mark>
+          <mark>tibero6</mark>
+          <mark>eclipse</mark>
+          <mark>svn</mark>
+          <mark>tomcat</mark>
+          <mark>spring</mark>
+        description: | # this will include new lines to allow paragraphs
+          - 학적, 수업, 등록, 장학, 교직원 파트 담당 개발
 
   - title: Experience # Title for the section
     layout: layout2 # Type of content section (list/text)
