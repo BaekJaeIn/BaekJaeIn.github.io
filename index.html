@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>백재인 · Web Developer</title>
+  <meta name="description" content="6년차 웹 개발자 백재인의 이력서. 대한항공 홈페이지 운영, AEM, Java, React/Next.js 개발 경험." />
+  <meta name="author" content="백재인" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="백재인 · Web Developer" />
+  <meta property="og:description" content="6년차 웹 개발자 백재인의 이력서" />
+  <meta property="og:image" content="images/profile.jpg" />
+
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+  />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="aurora" aria-hidden="true"></div>
+
+  <button class="theme-toggle" id="themeToggle" type="button" aria-label="테마 전환">
+    <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+  </button>
+
+  <div class="layout">
+    <!-- ===================== SIDEBAR ===================== -->
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <div class="profile">
+          <div class="avatar-ring">
+            <img src="images/profile.jpg" alt="백재인 프로필 사진" class="avatar" />
+          </div>
+          <h1 class="name">백재인</h1>
+          <p class="role">Web Developer</p>
+          <p class="tagline">6년차 · 성장을 멈추지 않는 개발자</p>
+        </div>
+
+        <ul class="contact">
+          <li>
+            <span class="contact-ico" aria-hidden="true">✉</span>
+            <a href="mailto:jiback96@naver.com">jiback96@naver.com</a>
+          </li>
+          <li>
+            <span class="contact-ico" aria-hidden="true">⤴</span>
+            <a href="https://github.com/BaekJaeIn" target="_blank" rel="noopener">github.com/BaekJaeIn</a>
+          </li>
+          <li>
+            <span class="contact-ico" aria-hidden="true">◎</span>
+            <span>대한항공 홈페이지 운영팀</span>
+          </li>
+        </ul>
+
+        <div class="sidebar-block">
+          <h2 class="sidebar-heading">Core Skills</h2>
+          <div class="chips">
+            <span class="chip">Java</span>
+            <span class="chip">Spring</span>
+            <span class="chip">AEM</span>
+            <span class="chip">React</span>
+            <span class="chip">Next.js</span>
+            <span class="chip">Web Components</span>
+            <span class="chip">JSP</span>
+            <span class="chip">Oracle / Tibero</span>
+          </div>
+        </div>
+
+        <a class="cta" href="https://github.com/BaekJaeIn" target="_blank" rel="noopener">GitHub 방문하기</a>
+      </div>
+    </aside>
+
+    <!-- ===================== CONTENT ===================== -->
+    <main class="content">
+      <nav class="tabs" id="tabs" role="tablist" aria-label="이력서 섹션">
+        <button class="tab is-active" role="tab" data-tab="about" aria-selected="true">About</button>
+        <button class="tab" role="tab" data-tab="projects" aria-selected="false">Projects</button>
+        <button class="tab" role="tab" data-tab="experience" aria-selected="false">Experience</button>
+        <button class="tab" role="tab" data-tab="education" aria-selected="false">Education</button>
+        <button class="tab" role="tab" data-tab="certificate" aria-selected="false">Certificate</button>
+        <span class="tab-indicator" aria-hidden="true"></span>
+      </nav>
+
+      <!-- ABOUT -->
+      <section class="panel is-active" id="about" role="tabpanel">
+        <header class="panel-head">
+          <span class="panel-kicker">01 — 소개</span>
+          <h2 class="panel-title">About Me</h2>
+        </header>
+        <div class="prose">
+          <p>안녕하세요. <strong>6년차 개발자 백재인</strong>입니다.</p>
+          <p>
+            현재 한진정보통신에서 대한항공 홈페이지 운영팀의 일원으로, 대한항공 홈페이지 중 컨텐츠 영역의
+            운영과 개선을 담당하고 있습니다. 새로운 환경과 기술에 대한 도전을 두려워하지 않으며, 업무 전반에
+            걸쳐 주도적으로 문제를 해결하고 개선하는 경험을 쌓아왔습니다.
+          </p>
+          <p>
+            저는 커리어의 가장 중요한 가치로 <strong>성장</strong>을 꼽습니다. 첫 취업부터 지금까지의 모든
+            선택은 스스로를 더 크게 성장시키기 위한 방향이었으며, 그 과정에서 쉽게 얻을 수 없는 소중한 경험들을
+            축적해왔습니다.
+          </p>
+          <p>
+            새로운 도전은 성공이든 실패든 반드시 저를 한 단계 더 높여준다고 믿습니다. 이러한 신념을 바탕으로,
+            앞으로도 변화를 두려워하지 않고 열정적으로 업무에 임할 준비가 되어 있습니다.
+          </p>
+        </div>
+
+        <div class="quote-card">
+          <span class="quote-kicker">끊임없는 도전과 발전</span>
+          <p>
+            저는 목표를 설정하면 반드시 이루기 위해 끊임없이 도전하고 실행하는 개발자입니다. 실행 없는 도전은
+            결과를 만들 수 없다고 믿기에, 어떤 어려움 앞에서도 끝까지 해내려는 끈기를 가지고 업무에 임해왔습니다.
+            “어려워도 계속 해보자”는 태도는 저의 가장 큰 강점이자 신조입니다.
+          </p>
+          <p>
+            군 복무 시절, 견인포병으로 근무하며 제가 운용하던 포에 흥미를 갖게 되었고, 자연스럽게 군단 포병
+            전체가 참여하는 포반장학교에서 1등을 하겠다는 목표를 세웠습니다. 군 환경에서 학습하기가 쉽지 않았지만,
+            개인정비 시간과 연등 시간을 활용해 매일 새벽 1시까지 두 달 동안 집중적으로 학습했고, 최종 1등을
+            달성하며 노력의 가치를 다시 한 번 확인할 수 있었습니다.
+          </p>
+          <p>
+            프로그래밍 역시 마찬가지라고 생각합니다. 기계를 이해하고 다루는 일은 쉽지 않지만, 저는 장벽 앞에서
+            포기하지 않고 끈기 있는 학습과 반복을 통해 끝내 해결해내며 성장해 왔습니다. 앞으로도 도전과 발전을
+            멈추지 않는 개발자로서 계속해서 높은 목표를 향해 나아가고자 합니다.
+          </p>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><b>6+</b><span>Years</span></div>
+          <div class="stat"><b>5</b><span>Major Projects</span></div>
+          <div class="stat"><b>4</b><span>Certifications</span></div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="panel" id="projects" role="tabpanel" hidden>
+        <header class="panel-head">
+          <span class="panel-kicker">02 — 이력</span>
+          <h2 class="panel-title">Projects</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="tl-item">
+            <div class="tl-marker"></div>
+            <div class="tl-card">
+              <div class="tl-top">
+                <div>
+                  <h3 class="tl-title">대한항공 홈페이지 운영</h3>
+                  <p class="tl-org">한진정보통신 ·
+                    <a href="https://www.koreanair.com/" target="_blank" rel="noopener">대한항공 홈페이지</a>
+                  </p>
+                </div>
+                <span class="tl-date">2023.06 ~ 현재</span>
+              </div>
+              <ul class="tl-desc">
+                <li>이벤트 응모 기능 개발 및 데이터 전송</li>
+                <li>웹 접근성(W3C) 기준 준수</li>
+                <li>카카오톡 학생증 / 카카오모빌리티 연계 프로모션 기능 개발</li>
+                <li>이벤트 응모 프로세스 개선</li>
+                <li>대한항공 New CI 프로젝트 (~2025.03)</li>
+                <li>대한항공 ECC 페이지 개편 프로젝트 (~2025.03)</li>
+                <li>신규 기능 소개 페이지 개발 프로젝트 (~2025.08)</li>
+                <li>라운지 소개 페이지 개편 프로젝트 (~2025.12)</li>
+                <li>통합검색 표출 내용 개선 (~2025.12)</li>
+                <li>이벤트 페이지 및 Asset 최적화 (~2026.01)</li>
+                <li>대한항공 홈페이지 AI 번역 프로젝트 (~2026.01)</li>
+                <li>항공기안내 페이지 AEM Universal Editor 적용 (~2026)</li>
+                <li>컨텐츠 페이지 디자인 시스템 적용 · AI UX 라이팅 (~2026)</li>
+              </ul>
+              <div class="tags">
+                <span>Java</span><span>AEMaaCS</span><span>HTL</span><span>JSP</span><span>Next.js</span><span>React</span><span>Jenkins</span><span>Bitbucket</span><span>Jira</span><span>Sling</span><span>JCR SQL2</span><span>Web Components</span><span>Stencil.js</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-marker"></div>
+            <div class="tl-card">
+              <div class="tl-top">
+                <div>
+                  <h3 class="tl-title">대한항공 홈페이지 콘텐츠 개편</h3>
+                  <p class="tl-org">한진정보통신</p>
+                </div>
+                <span class="tl-date">2023.08 ~ 2024.06</span>
+              </div>
+              <ul class="tl-desc">
+                <li>On-premise AEM 시스템을 Cloud AEM 시스템으로 전환</li>
+                <li>Headless AEM, Remote SPA Frontend, Micro Frontend 신규 도입</li>
+                <li>개편 대상 신규 컴포넌트 개발</li>
+                <li>개편 대상이 아닌 legacy 컴포넌트 migration</li>
+                <li>이벤트 응모 기능 migration 및 수정</li>
+              </ul>
+              <div class="tags">
+                <span>Java</span><span>AEMaaCS</span><span>HTL</span><span>JSP</span><span>Next.js</span><span>React</span><span>Jenkins</span><span>Bitbucket</span><span>Jira</span><span>Sling</span><span>JCR SQL2</span><span>Web Components</span><span>Stencil.js</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-marker"></div>
+            <div class="tl-card">
+              <div class="tl-top">
+                <div>
+                  <h3 class="tl-title">경희대학교 학사관리시스템 운영</h3>
+                  <p class="tl-org">에버에듀시스템</p>
+                </div>
+                <span class="tl-date">2022.09 ~ 2023.06</span>
+              </div>
+              <ul class="tl-desc">
+                <li>대학원입시, 취업, 동문, 교직, 학생, 공용장비 파트 담당 운영</li>
+                <li>수업, 성적, 수강신청 서브 운영</li>
+                <li>마이크로디그리(MD) 협약에 따른 신규 개발</li>
+              </ul>
+              <div class="tags">
+                <span>Java</span><span>Nexacro 14</span><span>Tibero 6</span><span>Eclipse</span><span>Jennifer</span><span>Spring</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-marker"></div>
+            <div class="tl-card">
+              <div class="tl-top">
+                <div>
+                  <h3 class="tl-title">SH공사 전사자원통합관리시스템 구축 1단계</h3>
+                  <p class="tl-org">에버에듀시스템</p>
+                </div>
+                <span class="tl-date">2021.09 ~ 2022.07</span>
+              </div>
+              <ul class="tl-desc">
+                <li>인사기본사항, 인사발령 담당 개발</li>
+                <li>리눅스 crontab 기반 배치 프로그램 개발</li>
+                <li>사용자 입력 레포트 개발 (전자 근로계약서)</li>
+                <li>오라클 프로시저 개발</li>
+              </ul>
+              <div class="tags">
+                <span>Java</span><span>WebSquare</span><span>Oracle 11g</span><span>Eclipse</span><span>SVN</span><span>Spring</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-marker"></div>
+            <div class="tl-card">
+              <div class="tl-top">
+                <div>
+                  <h3 class="tl-title">목포과학대학교 Life 사업단 성인학습자 이력관리 시스템 구축</h3>
+                  <p class="tl-org">에버에듀시스템</p>
+                </div>
+                <span class="tl-date">2020.07 ~ 2021.09<br />2022.07 ~ 2022.08</span>
+              </div>
+              <ul class="tl-desc">
+                <li>학적, 수업, 등록, 장학, 교직원 파트 담당 개발</li>
+              </ul>
+              <div class="tags">
+                <span>Java</span><span>Nexacro 17</span><span>Tibero 6</span><span>Eclipse</span><span>SVN</span><span>Tomcat</span><span>Spring</span>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="panel" id="experience" role="tabpanel" hidden>
+        <header class="panel-head">
+          <span class="panel-kicker">03 — 경력</span>
+          <h2 class="panel-title">Experience</h2>
+        </header>
+        <div class="cards">
+          <article class="info-card">
+            <div class="info-top">
+              <h3>한진정보통신(주)</h3>
+              <span class="badge">2023.06 ~ 현재</span>
+            </div>
+            <p class="info-role">AEM 개발자</p>
+            <a class="info-link" href="https://www.hist.co.kr" target="_blank" rel="noopener">hist.co.kr ↗</a>
+          </article>
+          <article class="info-card">
+            <div class="info-top">
+              <h3>(주)에버에듀시스템</h3>
+              <span class="badge">2020.08 ~ 2023.06</span>
+            </div>
+            <p class="info-role">웹 개발자</p>
+            <a class="info-link" href="https://www.averedusystem.co.kr/" target="_blank" rel="noopener">averedusystem.co.kr ↗</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="panel" id="education" role="tabpanel" hidden>
+        <header class="panel-head">
+          <span class="panel-kicker">04 — 학력</span>
+          <h2 class="panel-title">Education</h2>
+        </header>
+        <div class="cards">
+          <article class="info-card">
+            <div class="info-top">
+              <h3>학점은행제</h3>
+              <span class="badge">2021.07 ~ 2022.02</span>
+            </div>
+            <p class="info-role">정보통신공학과</p>
+            <p class="info-sub">학점 4.19</p>
+          </article>
+          <article class="info-card">
+            <div class="info-top">
+              <h3>명지전문대학교</h3>
+              <span class="badge">2015.03 ~ 2020.02</span>
+            </div>
+            <p class="info-role">정보통신공학과</p>
+            <p class="info-sub">학점 3.5</p>
+          </article>
+          <article class="info-card">
+            <div class="info-top">
+              <h3>동양고등학교</h3>
+              <span class="badge">2012.03 ~ 2015.02</span>
+            </div>
+            <p class="info-role">졸업</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- CERTIFICATE -->
+      <section class="panel" id="certificate" role="tabpanel" hidden>
+        <header class="panel-head">
+          <span class="panel-kicker">05 — 자격</span>
+          <h2 class="panel-title">Certificate</h2>
+        </header>
+        <div class="cards">
+          <article class="info-card">
+            <div class="info-top">
+              <h3>TOEIC</h3>
+              <span class="badge">2025.09</span>
+            </div>
+            <p class="info-role">ETS</p>
+            <p class="info-sub">점수 780</p>
+          </article>
+          <article class="info-card">
+            <div class="info-top">
+              <h3>데이터분석준전문가 (ADsP)</h3>
+              <span class="badge">2024.11</span>
+            </div>
+            <p class="info-role">데이터자격검정</p>
+          </article>
+          <article class="info-card">
+            <div class="info-top">
+              <h3>AWS Certified Developer</h3>
+              <span class="badge">2023.08</span>
+            </div>
+            <p class="info-role">Amazon Web Services</p>
+          </article>
+          <article class="info-card">
+            <div class="info-top">
+              <h3>정보처리기사</h3>
+              <span class="badge">2021.11</span>
+            </div>
+            <p class="info-role">한국산업인력공단</p>
+          </article>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> 백재인 · Baek Jae-in. Built with HTML · CSS · JavaScript.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

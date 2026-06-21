@@ -1,14 +1,58 @@
-# 안녕하세요. 6년차 개발자 백재인입니다.
+# 백재인 · 이력서 웹사이트
 
-현재 한진정보통신에서 대한항공 홈페이지 운영팀의 일원으로, 대한항공 홈페이지 중 컨텐츠 영역의 운영과 개선을 담당하고 있습니다. 새로운 환경과 기술에 대한 도전을 두려워하지 않으며, 업무 전반에 걸쳐 주도적으로 문제를 해결하고 개선하는 경험을 쌓아왔습니다.
+6년차 웹 개발자 **백재인**의 온라인 이력서입니다.
+👉 **[BaekJaeIn.github.io](https://BaekJaeIn.github.io)**
 
-저는 커리어의 가장 중요한 가치로 성장을 꼽습니다. 첫 취업부터 지금까지의 모든 선택은 스스로를 더 크게 성장시키기 위한 방향이었으며, 그 과정에서 쉽게 얻을 수 없는 소중한 경험들을 축적해왔습니다.
-
-새로운 도전은 성공이든 실패든 반드시 저를 한 단계 더 높여준다고 믿습니다. 이러한 신념을 바탕으로, 앞으로도 변화를 두려워하지 않고 열정적으로 업무에 임할 준비가 되어 있습니다.
+현재 한진정보통신에서 대한항공 홈페이지 운영팀의 일원으로, 컨텐츠 영역의 운영과 개선을 담당하고 있습니다.
 
 ---
 
-참조 : https://github.com/sproogen/modern-resume-theme
+## ✨ 특징
 
-> bundle install --path vendor/bundle
-> bundle exec jekyll serve
+- **탭 기반 UI** — About · Projects · Experience · Education · Certificate를 탭으로 분리
+- **반응형 디자인** — 데스크톱 / 태블릿 / 모바일 대응
+- **다크 모드** — 시스템 설정 자동 감지 + 토글 (선택값 localStorage 저장)
+- **빌드 불필요** — 순수 정적 사이트, GitHub Pages에서 바로 동작
+
+## 🛠 기술 스택
+
+| 구분 | 사용 기술 |
+| --- | --- |
+| Markup | HTML5 (시맨틱 마크업) |
+| Style | CSS3 (Custom Properties, Grid, Flexbox) |
+| Script | Vanilla JavaScript (의존성 없음) |
+| Font | [Pretendard](https://github.com/orioncactus/pretendard) |
+| Hosting | GitHub Pages |
+
+> 기존 Jekyll(`sproogen/resume-theme`) 기반에서 빌드가 필요 없는 순수 정적 사이트로 전면 개편했습니다.
+
+## 📁 구조
+
+```
+.
+├── index.html              # 전체 콘텐츠 (시맨틱 마크업)
+├── assets/
+│   ├── css/style.css       # 테마 · 레이아웃 · 반응형
+│   └── js/main.js          # 탭 · 다크모드 · 인터랙션
+├── images/                 # 프로필 이미지 · 파비콘
+└── .nojekyll               # GitHub Pages Jekyll 처리 비활성화
+```
+
+## 🚀 로컬에서 보기
+
+별도 빌드 과정이 없습니다. 정적 서버로 띄우기만 하면 됩니다.
+
+```bash
+# Python
+python -m http.server 8000
+
+# 또는 Node
+npx serve
+```
+
+브라우저에서 `http://localhost:8000` 접속.
+
+## ✏️ 내용 수정
+
+이력 내용은 모두 [`index.html`](index.html)에 작성되어 있습니다.
+각 섹션(`<section class="panel">`)을 직접 편집하면 됩니다.
