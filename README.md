@@ -1,58 +1,51 @@
-# 백재인 · 이력서 웹사이트
+# 안녕하세요. 6년차 개발자 백재인입니다.
 
-6년차 웹 개발자 **백재인**의 온라인 이력서입니다.
-👉 **[BaekJaeIn.github.io](https://BaekJaeIn.github.io)**
+현재 한진정보통신에서 대한항공 홈페이지 운영팀의 일원으로, 대한항공 홈페이지 중 컨텐츠 영역의 운영과 개선을 담당하고 있습니다. 새로운 환경과 기술에 대한 도전을 두려워하지 않으며, 업무 전반에 걸쳐 주도적으로 문제를 해결하고 개선하는 경험을 쌓아왔습니다.
 
-현재 한진정보통신에서 대한항공 홈페이지 운영팀의 일원으로, 컨텐츠 영역의 운영과 개선을 담당하고 있습니다.
+저는 커리어의 가장 중요한 가치로 **성장**을 꼽습니다. 첫 취업부터 지금까지의 모든 선택은 스스로를 더 크게 성장시키기 위한 방향이었으며, 그 과정에서 쉽게 얻을 수 없는 소중한 경험들을 축적해왔습니다.
+
+새로운 도전은 성공이든 실패든 반드시 저를 한 단계 더 높여준다고 믿습니다. 이러한 신념을 바탕으로, 앞으로도 변화를 두려워하지 않고 열정적으로 업무에 임할 준비가 되어 있습니다.
+
+👉 온라인 이력서: **[BaekJaeIn.github.io](https://BaekJaeIn.github.io)**
 
 ---
 
-## ✨ 특징
+## 📮 Contact
 
-- **탭 기반 UI** — About · Projects · Experience · Education · Certificate를 탭으로 분리
-- **반응형 디자인** — 데스크톱 / 태블릿 / 모바일 대응
-- **다크 모드** — 시스템 설정 자동 감지 + 토글 (선택값 localStorage 저장)
-- **빌드 불필요** — 순수 정적 사이트, GitHub Pages에서 바로 동작
+- Email: jiback96@naver.com
+- GitHub: [github.com/BaekJaeIn](https://github.com/BaekJaeIn)
 
-## 🛠 기술 스택
+## 🛠 Skills
 
-| 구분 | 사용 기술 |
-| --- | --- |
-| Markup | HTML5 (시맨틱 마크업) |
-| Style | CSS3 (Custom Properties, Grid, Flexbox) |
-| Script | Vanilla JavaScript (의존성 없음) |
-| Font | [Pretendard](https://github.com/orioncactus/pretendard) |
-| Hosting | GitHub Pages |
+`Java` `Spring` `AEM (AEMaaCS)` `React` `Next.js` `Web Components` `Stencil.js` `JSP` `HTL` `Oracle` `Tibero` `Nexacro` `WebSquare` `Jenkins` `Bitbucket` `Jira`
 
-> 기존 Jekyll(`sproogen/resume-theme`) 기반에서 빌드가 필요 없는 순수 정적 사이트로 전면 개편했습니다.
+## 💼 Experience
 
-## 📁 구조
+- **한진정보통신(주)** — AEM 개발자 (2023.06 ~ 현재)
+- **(주)에버에듀시스템** — 웹 개발자 (2020.08 ~ 2023.06)
 
-```
-.
-├── index.html              # 전체 콘텐츠 (시맨틱 마크업)
-├── assets/
-│   ├── css/style.css       # 테마 · 레이아웃 · 반응형
-│   └── js/main.js          # 탭 · 다크모드 · 인터랙션
-├── images/                 # 프로필 이미지 · 파비콘
-└── .nojekyll               # GitHub Pages Jekyll 처리 비활성화
-```
+## 🗂 Projects
 
-## 🚀 로컬에서 보기
+- **대한항공 홈페이지 운영** · 한진정보통신 (2023.06 ~ 현재)
+  - 이벤트 응모 기능 개발, 웹 접근성(W3C) 준수, 카카오 연계 프로모션, New CI·ECC·라운지 개편, AI 번역, AEM Universal Editor 적용 등
+- **대한항공 홈페이지 콘텐츠 개편** · 한진정보통신 (2023.08 ~ 2024.06)
+  - On-premise → Cloud AEM 전환, Headless AEM / Micro Frontend 도입, 신규 컴포넌트 개발 및 legacy migration
+- **경희대학교 학사관리시스템 운영** · 에버에듀시스템 (2022.09 ~ 2023.06)
+  - 대학원입시·취업·교직·학생 파트 운영, 마이크로디그리(MD) 신규 개발
+- **SH공사 전사자원통합관리시스템 구축 1단계** · 에버에듀시스템 (2021.09 ~ 2022.07)
+  - 인사기본사항·인사발령 개발, 배치 프로그램, 전자 근로계약서, 오라클 프로시저 개발
+- **목포과학대학교 Life 사업단 성인학습자 이력관리 시스템 구축** · 에버에듀시스템 (2020.07 ~ 2021.09, 2022.07 ~ 2022.08)
+  - 학적·수업·등록·장학·교직원 파트 개발
 
-별도 빌드 과정이 없습니다. 정적 서버로 띄우기만 하면 됩니다.
+## 🎓 Education
 
-```bash
-# Python
-python -m http.server 8000
+- **학점은행제** 정보통신공학과 (2021.07 ~ 2022.02) · 학점 4.19
+- **명지전문대학교** 정보통신공학과 (2015.03 ~ 2020.02) · 학점 3.5
+- **동양고등학교** (2012.03 ~ 2015.02)
 
-# 또는 Node
-npx serve
-```
+## 📜 Certificate
 
-브라우저에서 `http://localhost:8000` 접속.
-
-## ✏️ 내용 수정
-
-이력 내용은 모두 [`index.html`](index.html)에 작성되어 있습니다.
-각 섹션(`<section class="panel">`)을 직접 편집하면 됩니다.
+- **TOEIC** 780 — ETS (2025.09)
+- **데이터분석준전문가(ADsP)** — 데이터자격검정 (2024.11)
+- **AWS Certified Developer** — Amazon Web Services (2023.08)
+- **정보처리기사** — 한국산업인력공단 (2021.11)
